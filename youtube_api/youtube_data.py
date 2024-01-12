@@ -1,8 +1,9 @@
+import os
 import googleapiclient
 from googleapiclient.discovery import build
-from youtube_api import yt_api
 
-youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=yt_api.api_key)
+api_key = os.getenv('youtube_api')
+youtube = googleapiclient.discovery.build("youtube", "v3", developerKey=api_key)
 
 def get_data(channel_id):
     # Get the data from the YouTube API
