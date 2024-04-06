@@ -6,7 +6,6 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from pymongo import MongoClient
 import psycopg2
-from sqlalchemy import create_engine, types
 
 # Set up logging
 logging.basicConfig(level=logging.ERROR)
