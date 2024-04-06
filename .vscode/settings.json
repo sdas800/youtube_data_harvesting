@@ -1,5 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./app","./database","./utils","./youtube_api"
-    ],
-}
