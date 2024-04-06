@@ -1,2 +1,5 @@
 /.venv
 /.vscode
+/youtube_api/__pycache__
+/utils/__pycache__
+/database/__pycache__
